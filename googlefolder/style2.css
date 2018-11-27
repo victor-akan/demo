@@ -1,0 +1,156 @@
+body{
+	font-family: arial,sans-serif;
+	font-size: small;
+	background-color: #fff;
+	color: #222;
+	min-height: 100%;
+}
+
+div{
+	display: block;
+}
+
+a{
+	text-decoration: none;
+}
+
+#header-nav a, footer a {
+	color: #222;
+}
+a:hover, a:focus{
+	text-decoration: underline;
+}
+
+ul{
+	list-style: none;
+}
+
+input, #header-nav #nav-list {
+	display: inline-block;
+}
+
+#header-container {
+	padding-bottom: 5px;
+}
+
+#header-nav {
+	float: right;
+}
+
+.nav-item {
+	display: inline;
+	margin: 5px;
+
+}
+
+.g-app {
+	background-image: url('menu-icon.png');
+	display: inline-block;
+    outline: none;
+    vertical-align: middle;
+	box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+
+}
+
+main{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+input[type="text"] {
+    background-color: white;
+    background-image: url('Google_mic.png');
+    background-position: right; 
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    line-height: 34px;
+    font-size: 16px;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-top: 6px;
+    width: 100%;
+    border-style: none;
+    
+}
+
+#logo-section {
+	margin-top: 50px;
+	padding-bottom: 30px;
+	padding-top: 70px;
+}
+
+#search-area{
+	width: 584px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+    outline: none;
+}
+
+#search-area:hover {
+	box-shadow: 0 3px 5px #d9d9d9;
+}
+
+#button-section {
+	margin-top: 20px;
+}
+
+input[type="submit"] {
+	height: 36px;
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+	color: #222;
+	border: 1px solid #ccc;
+}
+
+.text-section {
+	padding: 10px;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+
+}
+.footer {
+	
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    
+}
+
+#top-footer {
+	padding: 10px;
+    border-bottom: .25px solid  rgba(0,0,0,.54);
+}
+
+.footer-menu {
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+#footer-menu2 {
+	float: right;
+}
