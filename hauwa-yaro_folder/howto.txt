@@ -1,0 +1,23 @@
+Note: your-user-name: This is a variable you should replace with your username
+
+Step A:
+1. Create a fork of the project at https://github.com/ichux/gtbtechclass-test.git
+2. Do a git clone https://github.com/your-user-name/gtbtechclass-test.git
+
+Step B:
+1. cd gtbtechclass-test
+2. git checkout -b chukwudi-nwachukwu
+3. mkdir chukwudi-nwachukwu
+4. cd chukwudi-nwachukwu
+5. Add the necessary files to the folder and then continue from the step 5
+6. cd ..
+7. git add .
+8. git commit -m "chukwudi-nwachukwu folder"
+9. git push origin chukwudi-nwachukwu
+
+Step C:
+1. Go online at the URL given to you on the command line
+2. Do a Pull Request
+
+Step D:
+Test is done!
